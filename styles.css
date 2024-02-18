@@ -1,0 +1,22 @@
+body {
+    /* background-image: url("./assets/images/background-pattern-desktop.svg"); */
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.accordion-button{
+    font-weight: bold;
+}
+.accordion-button:focus {
+    color: inherit !important; 
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+.accordion-body{
+    font-size: 16px;
+}
